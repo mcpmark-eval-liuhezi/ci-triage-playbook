@@ -1,0 +1,13 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo placeholder message
+        run: echo "Placeholder: build and test steps will be added here."
